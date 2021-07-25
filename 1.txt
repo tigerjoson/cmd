@@ -1,0 +1,9 @@
+用 DiskPart.exe 的 list volume 可以取得磁碟區清單資訊與狀態。使用方式為先執行 DiskPart.exe，當看到出現 DISKPART> 時，再輸入 list volume。
+結果中的 Ltr 是磁碟機代碼，Fs 是檔案系統格式。
+list 跟 select 是 DiskPart.exe 主要的 2 個指令。例如下面先切換到磁碟區 1，然後顯示該磁碟機的資訊與狀態
+select volume 1
+detail volume
+
+下面的指令則是磁碟 0 的資訊與狀態：
+select disk 0
+detail disk
