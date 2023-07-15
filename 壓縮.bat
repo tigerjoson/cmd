@@ -1,6 +1,6 @@
 chcp 65001
 SET /p casenumber="casenumber="
-set pathname=C:\Users\tiger\Desktop\notepad++backup\
+set pathname=path
 SET fullname=%pathname%%casenumber%
 echo %fullname%
 
