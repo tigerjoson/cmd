@@ -1,1 +1,2 @@
+rem ref: https://superuser.com/questions/160702/get-current-folder-name-by-a-dos-command
 for %%I in (.) do echo %%~nxI
