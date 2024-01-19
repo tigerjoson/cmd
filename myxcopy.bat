@@ -1,1 +1,1 @@
-xcopy . D:\tartget /exclude:
+xcopy . D:\tartget /exclude:excludefile.txt
