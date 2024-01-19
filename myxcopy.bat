@@ -1,0 +1,1 @@
+xcopy . D:\tartget /exclude:
