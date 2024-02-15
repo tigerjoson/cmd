@@ -1,3 +1,4 @@
+//ref : https://learn.microsoft.com/zh-tw/windows/console/console-virtual-terminal-sequences
 //var mysql      = require('mysql');
 import mysql from 'mysql';
 //const {mysql} = mysql;
