@@ -1,5 +1,5 @@
 rem ref: https://peterju.gitbooks.io/cmddoc/content/loop.html
-rem floder only
+rem folder only
 FOR /D %%d IN (*) DO (
   ECHO %%d
 )
