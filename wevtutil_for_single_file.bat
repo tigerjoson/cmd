@@ -35,7 +35,7 @@ for %%i in (*.evtx) do (
     
     :: 使用Windows事件工具(wevtutil)查詢事件日誌
     wevtutil qe /lf:true "%%i"  :: 從檔案(非即時日誌)讀取事件
-        /q:"*[contains(.,'hb16264')]"  :: XPath查詢條件：篩選包含 'hb16264' 字串的事件內容
+        /q:"*[contains(.,'hb')]"  :: XPath查詢條件：篩選包含 'hb' 字串的事件內容
         /f:text > "%%~ni.txt"          :: 輸出格式為純文字，並儲存為同名.txt檔案
 )
 
